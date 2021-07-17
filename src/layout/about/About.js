@@ -6,7 +6,7 @@ function About() {
     return (
 
         <div id="about">
-            <Wrapper bg="">
+            <Wrapper bg="lightgray">
 
                 about here
 

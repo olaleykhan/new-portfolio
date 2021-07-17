@@ -8,14 +8,14 @@ function Navbar({menuOpen, setMenuOpen}) {
         <div className={` navbar ${menuOpen&& "active"}`}>
             <Container>
                 <nav>
-                    <h4><a href="#welcome">ALaf Consult</a> </h4>
+                    <h4><a href="#welcome">ALaf</a> </h4>
                     <div>
                         <ul>
                             {/* <li> <a href="/"> </a></li> */}
-                            <li> <a href="#about"> About </a></li>
-                            <li> <a href="#projects"> Projects</a></li>
-                            <li> <a href="#contact"> Contact</a></li>
-                            <li> <a href="/"> Github</a></li>
+                            <li onClick={()=>setMenuOpen(true)}> <a href="#about"> About </a></li>
+                            <li onClick={()=>setMenuOpen(true)}> <a href="#projects"> Projects</a></li>
+                            <li onClick={()=>setMenuOpen(true)}> <a href="#contact"> Contact</a></li>
+                            <li onClick={()=>setMenuOpen(true)}> <a href="/"> Github</a></li>
                         </ul>
 
 

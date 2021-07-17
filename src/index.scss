@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 
@@ -15,6 +16,7 @@ font-family: 'Noto Sans JP', sans-serif; */
   padding: 0;
   box-sizing: border-box;
 
+
 }
 a{
   text-decoration: none;
@@ -25,6 +27,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {

@@ -43,7 +43,7 @@
       // bottom: 50px;
       // left: calc(50% - 40px);
       
-      animation: arrowBlink 1s alternate infinite;
+      animation: arrowBlink 1s alternate-reverse  ease-in-out infinite;
       @keyframes arrowBlink {
         100% {
           opacity: 0.1;
@@ -85,14 +85,20 @@
       }
     }
     .right {
+        h1{
+            font-size: 30px ;
+        }
+       
     }
+    
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .welcome{
         flex-direction: column;
         .left{
+            margin-top: 10px;
             .img-container{
                 // position: absolute;
                 // left: 0;

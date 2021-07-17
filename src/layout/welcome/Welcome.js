@@ -15,7 +15,7 @@ function Welcome() {
 
                 <h1>Hello, I'm Abdullah.</h1>
                 <h3>A <span className="text-primary">Software Engineer</span> </h3>
-                <p>I'm a self-motivated software engineer with a passion to become world class. <br/> Day and night, I put in
+                <p>self-motivated, with a passion to become world class. <br/> Day and night, I put in
                     the work to become this. With this kind of mindset, you can be sure I will be an asset to your company.   </p>
 
                 <a href="#projects" className="welcome-btn">

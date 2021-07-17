@@ -6,7 +6,7 @@ function Contact() {
     return (
 
             <div id="contact">
-                <Wrapper  bg="red">
+                <Wrapper  bg="">
             Contact
         </Wrapper>
             </div>
