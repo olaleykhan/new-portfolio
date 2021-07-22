@@ -1,0 +1,55 @@
+@import "../../global.scss";
+
+.icon-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  .icon {
+    color: $primary;
+    padding: 28px;
+    
+    border-radius: 50%;
+    border: 2px solid $primary;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  
+  }
+  p{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .hover{
+    &:hover {
+      color: $white;
+      background-color: $primary;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  .icon-wrap{
+    .icon {
+      padding: 15px;
+      width: 2em;
+      height: 2em;
+  
+      margin-left: 10px;
+      i {
+        font-size: 1.2em;
+      }
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+}

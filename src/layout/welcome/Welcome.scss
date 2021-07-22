@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .welcome {
-  height: 100vh;
+  // height: 100vh;
   min-height: 100vh;
   display: flex;
   .left {
@@ -34,7 +34,8 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 60%;
+
+    min-height: 50vh;
     align-self: center;
     justify-content: space-around;
     margin: auto 10%;
@@ -87,6 +88,11 @@
     .right {
         h1{
             font-size: 30px ;
+        }
+        p{
+          font-size: 15px;
+          margin-top: 10px;
+          margin-bottom: 10px;
         }
        
     }

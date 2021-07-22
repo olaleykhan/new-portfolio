@@ -3,6 +3,7 @@
 .projectCard {
   width: 550px;
   max-width: 47%;
+  min-height: 300px;
   // max-height: 80vh;
   position: relative;
   margin: 4% 0px;
@@ -34,6 +35,9 @@
     justify-content: space-around;
     color: $primary;
     padding: 20px;
+    p{
+      font-size: 14px;
+    }
    
     .techs {
       display: flex;
@@ -58,7 +62,8 @@
         // justify-self: center;
         // justify-self: center;
         align-self: center;
-        justify-content: space-between;
+        justify-self: center;
+        justify-content: center;
         button{
             background-color: transparent;
             color: $primary;
@@ -81,28 +86,39 @@
     //   display: none;
   }
   &:hover {
+    min-height: 350px;
     img {
       opacity: 0;
-      //   display: none;
+
     }
     .content {
       opacity: 1;
-      //   display: block;
+
     }
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .projectCard {
     align-self: center;
     width: 800px;
+   
     max-width: 80%;
     min-height: 300px;
     position: relative;
     margin: 4% 0px;
+   
 
     .content {
         font-size: 12px;
+        position: static;
+        opacity: 1;
+        p{
+          font-size: 12px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          text-align :abs($number: 5)
+        }
         .buttons{
             width: 80%;
             font-size: 10px;
@@ -110,15 +126,14 @@
                 font-size: 10px;
                 padding: 5px 10px;
                 cursor: pointer;
-
-            }
-           
-            // .left-button{
-            //     margin-right: 20px !important;
-            //     padding: -20px;
-            // }           
+            }           
         
         }
+    }
+    &:hover{
+      img{
+        opacity: 1;
+      }
     }
   }
 }
