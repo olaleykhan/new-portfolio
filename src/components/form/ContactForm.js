@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Input from '../input/Input';
 import Button from '../button/Button';
-import './ContactForm.scss'
+import './ContactForm.scss';
 
 export class ContactForm extends Component {
 
@@ -42,10 +42,10 @@ export class ContactForm extends Component {
             message: this.state.message,
         }
 
-        e.preventDefault();
+        // e.preventDefault();
         if(this.formValid){
             console.log(user);
-            this.props.signup(user);
+            // this.props.signup(user);
             
         } else{
             this.displayError();
@@ -106,7 +106,7 @@ export class ContactForm extends Component {
             <>
                 {this.state.formError && <h4 style={{color:"red"}}> Please Fill form appropriately</h4>}
                 
-                <form onSubmit={this.handleFormSubmit}>
+                <form action='process.php' method="POST" onSubmit={this.handleFormSubmit}>
                 <h3 className="form-title"> Please FIll this form to reach out to me</h3>
                     <Input label="Full Name" type="input" id="fullName" value={this.state.fullName} onBlur={this.handleblur('fullName')} err={errors.fullName} onChange={this.handleInputChange} />
                     <Input label="email" type="input" id="email" value={this.state.email} onBlur={this.handleblur('email')} err={errors.email} onChange={this.handleInputChange} />
