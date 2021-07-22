@@ -1,0 +1,78 @@
+@import "../../global.scss";
+
+.Input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #3d3d3d;;
+}
+
+.InputElement{
+    outline: none;
+    border: 1px solid $primary;
+    background-color: $white;
+    font: inherit;
+    padding: 6px 10px;
+    border-radius: 5px ;
+    display: block;
+    width: 100%;
+   
+}
+
+.InputElement:focus{
+    outline: none;
+    background-color: white;
+    /* color: rgb(158, 255, 179); */
+    color: $primary;
+    font-size: large;
+}
+
+.err{
+    color: rgb(245, 98, 98);
+    font-size: 12px;
+    font-style: oblique;
+    
+}
+
+textarea.noscrollbars {
+    overflow: hidden;
+    width: 100%;
+    height: 20vh;
+  }
+
+  
+  @media only screen and (max-width: 1000px) {
+
+    .Input{
+        margin: 0 auto;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .InputElement{
+        padding: 4px 6px;
+        margin: 0 auto;
+
+    }
+      textarea.noscrollbars{
+          height: 10vh;
+          min-height: 60px;
+      }
+
+      .Label{
+          margin-bottom: 8px;
+      }
+
+    .err{
+        font-size: 10px;
+    }
+
+    button{
+        margin-top: 20px;
+    }
+  }

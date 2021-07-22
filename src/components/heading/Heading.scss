@@ -1,0 +1,18 @@
+@import '../../global.scss';
+
+.heading{
+    font-size: 40px;
+    margin: 0 auto 20px auto;
+    padding-top: 20px;
+    width: fit-content;
+    text-align: center;
+    color: $primary;
+    font-family: 'Courier Prime', monospace;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .heading{
+        font-size: 30px;
+    }
+}

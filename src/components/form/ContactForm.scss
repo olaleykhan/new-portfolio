@@ -1,0 +1,23 @@
+@import "../../global.scss";
+
+form{
+    width: 80%;
+    margin: 0 auto;
+    .form-title{
+        color: $primary;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    form{
+        width: 98%;
+        text-align: center;
+        justify-self: center;
+        .form-title{
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+    }
+}
