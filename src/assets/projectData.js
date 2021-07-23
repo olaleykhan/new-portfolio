@@ -44,7 +44,7 @@ export const projects = [
       title: "Github Jobs",    
       tech: ['react'],
       image: "./images/gitjobs.png",
-      description: "l ",
+      description: "A web app that fetches job updates from the github api, can be sorted with location, stack and if remote. ",
       live: "https://git-dev-jobs.herokuapp.com/",
       code : "https://github.com/olaleykhan/github-jobs"
     },
@@ -70,7 +70,7 @@ export const projects = [
     {
       id: "8",
       title: "Count down",
-      tech: ['vue'],
+      tech: ['vuejs'],
       image: "./images/countdown.png",
       description: "A simple countdown app built at the time I was learning Vue Js",
       live:"https://countdown-alaf.netlify.app/",

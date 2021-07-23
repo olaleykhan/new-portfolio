@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React from 'react'
 import Icon from '../icon/Icon';
 import './QualityCard.scss'
 

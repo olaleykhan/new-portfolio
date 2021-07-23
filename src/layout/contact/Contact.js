@@ -25,7 +25,7 @@ function Contact() {
 
                 </div>
 
-                <footer> Abdullah Olalekan 2021@ </footer>
+                <footer> &copy; {new Date().getFullYear()}  Abdullah Olalekan. All rights reserved. </footer>
                 
             </Wrapper>
         </div>
