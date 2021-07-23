@@ -4,8 +4,9 @@ import './QualityCard.scss'
 
 function QualityCard({...props}) {
     return (
-        <div className="quality-card">
+        <div style={props.style} className="quality-card">
             <Icon {...props} />
+            
 
             <p className="text">{props.children && props.children}</p>
             
