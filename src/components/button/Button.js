@@ -4,7 +4,7 @@ function Button(props) {
     return (
         <>
 
-        <button style={props.style} className="button"> {props.children}</button>
+        <button className={ props.type? props.type: "button"} style={props.style} > {props.children}</button>
             
         </>
     )
