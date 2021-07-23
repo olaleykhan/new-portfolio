@@ -27,7 +27,7 @@ function About() {
                             stacks I am conversant with.
                         </p>
 
-                        <div>
+                        <div className="quality-cards">
                             <QualityCard title="sass" type="sass" size="2x" />
                             <QualityCard title="html5" type="html5" size="2x" />
                             <QualityCard title="css3" type="css3" size="2x" />

@@ -17,14 +17,21 @@ function Welcome() {
                 <h3>A <span className="text-primary">Software Engineer</span> </h3>
                 <p>self-motivated, with a passion to become world class. <br/> Day and night, I put in
                     the work to become this. With this kind of mindset, you can be sure I will be an asset to your company.  
-                    <div style={{color:"orange"}}> Please do check out my blog from the Nav below</div>
                      </p>
 
+                <div>
                 <a href="#projects" className="welcome-btn">
                 <Button>
                 <i className="fa fa-chevron-down"></i> <span style={{fontSize: "20px"}} className="icon-text">Projects</span>
                 </Button>
                 </a>
+
+                <a href="https://blog.lekan.dev/" id="welcome-blog-btn" className="welcome-btn" style={{}} >
+                <Button type="blog" >
+                <span style={{fontSize: "20px"}} className="icon-text"> Blog</span>
+                </Button>
+                </a>
+                </div>
                
 
             </div>
