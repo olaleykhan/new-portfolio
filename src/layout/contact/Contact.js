@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.scss';
 import Wrapper from '../../components/wrapper/Wrapper';
-import ContactForm from '../../components/form/ContactForm';
+import ContactForm from '../../components/form/ContactFormNew';
 import Heading from '../../components/heading/Heading';
 import Icon from '../../components/icon/Icon';
 
