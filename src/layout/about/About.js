@@ -49,18 +49,18 @@ function About() {
                     <h2 style={{marginBottom: "25px"}}>Qualities</h2>
                     <div className="qualities">
                    <div className="quality-item">
-                   <QualityCard type=". fas fa-code" size="2x" title='algo & DS'> With an understanding of Data structures and Algorithm, I am able to write clean 
+                   <QualityCard style={{height: '250px'}} type=". fas fa-code" size="2x" title='algo & DS'> With an understanding of Data structures and Algorithm, I am able to write clean 
                         and efficient code with scalability always in mind.
                     </QualityCard>
                    </div>
                    <div className="quality-item">
-                    <QualityCard type=". fas fa-people-carry" size="2x" title="Team Player"> Having worked as part of a team severly, I can confidently say I function well as part of a team of any size</QualityCard>
+                    <QualityCard style={{height: '250px'}}  type=". fas fa-people-carry" size="2x" title="Team Player"> Having worked as part of a team severly, I can confidently say I function well as part of a team of any size</QualityCard>
                     </div>
                    <div className="quality-item">
-                    <QualityCard type=". fas fa-graduation-cap" size="2x" title="Teachable"> I am always ready to learn and take up challeges with a goal of becoming a better developer with each task</QualityCard>
+                    <QualityCard style={{height: '250px'}}  type=". fas fa-graduation-cap" size="2x" title="Teachable"> I am always ready to learn and take up challeges with a goal of becoming a better developer with each task</QualityCard>
                     </div>
                    <div className="quality-item">
-                    <QualityCard type=". fas fa-graduation-cap" size="2x" title="Proactive and Intuitive"> \One of my best qualities is proactivity. One which I am always concious of and apply in any team I work with</QualityCard>
+                    <QualityCard style={{height: '250px'}}  type=". fas fa-lightbulb" size="2x" title="Proactive and Intuitive">One of my best qualities is proactivity. One which I am always concious of and apply in any team I work with</QualityCard>
                     </div>
 
 

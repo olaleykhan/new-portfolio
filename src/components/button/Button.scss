@@ -2,7 +2,7 @@
 
 
 button{
-    &.button{
+    // &.button, .submit{
         background-color: transparent;
         color: $primary;
         border: 1px solid $primary;
@@ -19,7 +19,7 @@ button{
 
 
         
-    }
+    // }
 
     &.blog{
 
